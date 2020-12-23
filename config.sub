@@ -1371,6 +1371,9 @@ case $os in
 	     | midnightbsd* | amdhsa* | unleashed* | emscripten* | wasi*)
 	# Remember, each alternative MUST END IN *, to match a version number.
 		;;
+	# [GNU MCU Eclipse]
+	embed)
+		;;
 	qnx*)
 		case $cpu in
 		    x86 | i*86)
